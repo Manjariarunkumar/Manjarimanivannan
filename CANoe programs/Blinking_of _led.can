@@ -1,0 +1,23 @@
+PROGRAM:
+includes
+{
+  
+}
+
+variable
+{
+  message light_msg1 m2;
+}
+on envVar switch_env
+{
+  if(@switch_env==1)
+  {
+    m2.light_s=1;
+    output(m2);
+  }
+  else
+  {
+    m2.light_s=0;
+    output(m2);
+  }
+}
