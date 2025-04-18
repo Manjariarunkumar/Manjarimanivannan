@@ -1,0 +1,48 @@
+PROGRAM:
+#include <stdio.h>
+
+int main()
+{
+    char operator;
+    int a,b,res;
+    printf("enter the operator:");
+    scanf("%c",&operator);
+    printf("enter the value of a:");
+    scanf("%d",&a);
+    printf("enter the value of b:");
+    scanf("%d",&b);
+    if(operator='+')
+    {
+        res=a+b;
+        printf("sum is %d",res);
+    }
+    else if(operator='-')
+    {
+        res=a-b;
+        printf("sub is%d",res);
+    }
+    else if(operator='*')
+    {
+        res=a*b;
+        printf("mul is %d",res);
+        
+    }
+    else if(operator='%')
+    {
+        res=a/b;
+        printf(" divi is %d",res);
+        
+    }
+    else
+    {
+        printf("invalid input");
+    }
+}
+
+OUTPUT:
+enter the operator:+
+enter the value of a:8
+enter the value of b:9
+sum is 17
+
+    
