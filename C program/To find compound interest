@@ -1,0 +1,12 @@
+PROGRAM:
+#include <stdio.h>
+
+int main()
+{
+    int p=50000,n=2,r=12;
+    int si;
+    si=(p*n*r)/100;
+    printf(" The simple interest is %d",si);
+}
+OUTPUT:
+The simple interest is 12000
