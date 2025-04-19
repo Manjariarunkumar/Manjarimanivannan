@@ -1,0 +1,14 @@
+PROGRAM:
+#include <stdio.h>
+
+int main()
+{
+ int n,m;
+ printf("Enter the num:");
+ scanf("%d",&n);
+ m=(n*(n+1)/2);
+ printf("The sum of n is %d",m);
+}
+OUTPUT:
+Enter the num:10
+The sum of n is 55
