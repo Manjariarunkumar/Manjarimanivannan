@@ -1,0 +1,19 @@
+PROGRAM:
+#include <stdio.h>
+
+int main()
+{
+ int n,i;
+ int fact=1;
+ printf("enter the num:");
+ scanf("%d",&n);
+ for(i=1;i<=n;i++)
+ {
+     fact=fact*i;
+ }
+     printf("%d",fact);
+ 
+}
+OUTPUT:
+enter the num:5
+The factorial of the num is 120
