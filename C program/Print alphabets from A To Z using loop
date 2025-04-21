@@ -1,0 +1,16 @@
+PROGRAM:
+#include<stdio.h>
+int main()
+{
+  char alpha='A';
+  while(alpha<='Z')
+  {
+    if(alpha>='A'&& alpha<='Z')
+    {
+      printf("%c\n",alpha);
+     }
+        alpha++;
+    }
+ }
+OUTPUT:
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
