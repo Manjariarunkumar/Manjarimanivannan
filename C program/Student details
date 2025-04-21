@@ -1,0 +1,29 @@
+PROGRAM:
+#include <stdio.h>
+#include<string.h>
+struct student_det
+{
+   char name[7];
+   int age;
+   int roll_no;
+   char course_name[4];
+   char clg_name[10];
+};
+int main()
+{
+    struct student_det sd;
+    strcpy(sd.name,"manjari");
+    sd.age=21;
+    sd.roll_no=30;
+    strcpy(sd.course_name,"ECE");
+    strcpy(sd.clg_name,"GCE");
+    printf("The name of the student is %s\n",sd.name);
+    printf("The age of the student is %d\n",sd.age);
+    printf("The Course name of the student is %s\n",sd.course_name);
+    printf("The college name of the student is %s\n",sd.clg_name);
+}
+OUTPUT:
+The name of the student is manjari
+The age of the student is 21
+The Course name of the student is ECE
+The college name of the student is GCE
