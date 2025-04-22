@@ -1,0 +1,21 @@
+PROGRAM:
+#include <stdio.h>
+int add();
+int main()
+{
+  add();  
+}
+int add()
+{
+  int a,b,sum=0;
+  printf("Enter the num a:");
+  scanf("%d",&a);
+  printf("Enter the num b:");
+  scanf("%d",&b);
+  sum=a+b;
+  printf("The sum of num is %d",sum);
+}
+OUTPUT:
+Enter the num a:14
+Enter the num b:15
+The sum of num is 29
