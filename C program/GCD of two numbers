@@ -1,0 +1,23 @@
+PROGRAM:
+#include <stdio.h>
+int main()
+{
+   int a,b,i,gcd;
+   printf("Enter the num a:");
+   scanf("%d",&a);
+   printf("Enter the num b:");
+   scanf("%d",&b);
+   for(i=1;i<=a&&i<=b;i++)
+   {
+       if(a%i==0 && b%i==0)
+       {
+           gcd=i;
+       }
+ }
+   printf("The gcd of two num is %d",gcd);
+}
+
+OUTPUT:
+Enter the num a:18
+Enter the num b:24 
+The gcd of two num is 6
