@@ -1,0 +1,16 @@
+PROGRAM:
+#include <stdio.h>
+int main()
+{
+  int i;
+  char name, str[]="Electronics and Communication Engineering";
+  char *ptr=str;
+  for(i=0;i<=40;i++)
+  {
+      name=*(ptr+i);
+      printf("%c",name);
+  }
+}
+
+OUTPUT:
+Electronics and Communication Engineering
