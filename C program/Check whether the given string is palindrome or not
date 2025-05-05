@@ -1,0 +1,34 @@
+PROGRAM:
+
+#include <stdio.h>
+int main()
+{
+    int i;
+    char name,reverse_name, str[]="malayalam";
+    char *ptr=str;
+    for(i=0;i<=8;i++)
+    {
+        name=*(ptr+i);
+        printf("%c",name);
+    }
+    printf("\n");
+    for(i=8;i>=0;i--)
+    {
+       reverse_name=*(ptr+i);
+       printf("%c",reverse_name);
+    }
+    printf("\n");
+    if(name==reverse_name)
+    {
+        printf("The string is palindrome");
+    }
+    else
+    {
+        printf("The string is not a palindrome");
+    }
+}
+
+OUTPUT:
+malayalam
+malayalam
+The string is palindrome
