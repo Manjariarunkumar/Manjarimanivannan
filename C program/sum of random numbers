@@ -1,0 +1,21 @@
+PROGRAM:
+#include <stdio.h>
+int main()
+{
+   int i,n,num,sum=0;
+   printf("Enter how many numbers:");
+   scanf("%d",&n);
+   printf("Enter the numbers:");
+   for(i=0;i<n;i++)
+   {
+      scanf("%d",&num);
+      sum=sum+num;
+   }
+   printf("The sum of the numbers is :");
+   printf("%d",sum);
+}
+
+OUTPUT:
+Enter how many numbers:2
+Enter the numbers:11 22
+The sum of the numbers is :33
