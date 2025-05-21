@@ -1,0 +1,20 @@
+PROGRAM:
+
+#include <stdio.h>
+int main()
+{
+  int i=1,n,sum=0;
+  printf("Enter the num of terms:");
+  scanf("%d",&n);
+  while(i<=n)
+  {
+    sum=sum+i;
+    i++;
+  }
+ printf("The sum of natural num is %d",sum);
+}
+
+OUTPUT:
+Enter the num of terms:5
+The sum of natural num is 15
+
